@@ -78,8 +78,11 @@ cv2.imshow("Resized edge filter",resized4)
 #save the image on pc 
 ss=asksaveasfilename()
 cv2.imwrite(ss,cartoon)
+ss=asksaveasfilename()
 cv2.imwrite(ss,grey)
+ss=asksaveasfilename()
 cv2.imwrite(ss,color)
+ss=asksaveasfilename()
 cv2.imwrite(ss,edges)
 k=cv2.waitkey(0)
 
